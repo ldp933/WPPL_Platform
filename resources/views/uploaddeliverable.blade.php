@@ -2,7 +2,7 @@
 
 @section('main-content')
     <!-- Page Heading -->
-    <h1 class="h3 mb-4 text-gray-800">{{ __('Business Model Documentation') }}</h1>
+    <h1 class="h3 mb-4 text-gray-800">{{ __('Upload Deliverable') }}</h1>
 
     <!-- Main Content goes here -->
     <div class="card shadow mb-4">

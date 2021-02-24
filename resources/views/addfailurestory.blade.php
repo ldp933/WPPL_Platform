@@ -2,37 +2,53 @@
 
 @section('main-content')
     <!-- Page Heading -->
-    <h1 class="h3 mb-4 text-gray-800">{{ __('Business Model Documentation') }}</h1>
+    <h1 class="h3 mb-4 text-gray-800">{{ __('Add Failure Story') }}</h1>
 
     <!-- Main Content goes here -->
     <div class="card shadow mb-4">
         <div class="card-body">
             <div class="row">
-                <div class="col-lg-12">
+                <div class="col-lg-8">
                     <div class="form-group focused">
-                        <label class="form-control-label" for="attachement">Attachment</label>
-                        <form action="{{ route('dropzone') }}" class="dropzone" method="post" enctype="multipart/form-data">@csrf
-                        </form>
-                        <p class="text-form">(* File type : .docx, .pptx, .xlsx, .pdf)</p>
+                        <label class="form-control-label" for="problem">Problem</label>
+                        <input type="text" id="problem" class="form-control" name="problem">
                     </div>
                 </div>
             </div>
+
             <div class="row">
                 <div class="col-lg-12">
                     <div class="form-group focused">
                         <label class="form-control-label" for="description">Description</label>
-                        <textarea id="description" class="form-control" name="description" placeholder="Write a detailed description..."></textarea>
-                        <p class="text-form">You will be able to edit this information later.</p>
+                        <textarea id="description" class="form-control" name="description"></textarea>
                     </div>
                 </div>
             </div>
+
             <div class="row">
                 <div class="col-lg-12">
-                    <div class="form-group">
-                        <button type="submit" class="btn btn-new-primary">Upload</button>
+                    <div class="form-group focused">
+                        <label class="form-control-label" for="solution">Solution</label>
+                        <textarea id="solution" class="form-control" name="solution"></textarea>
                     </div>
                 </div>
             </div>
+
+            <div class="row">
+                <div class="col-lg-1">
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-new-primary">Post</button>
+                    </div>
+                </div>
+
+                <div class="col-lg-1">
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-new-cancel">Cancel</button>
+                    </div>
+                </div>
+
+            </div>
+
         </div>
     </div>
 
