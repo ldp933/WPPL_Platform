@@ -12,6 +12,7 @@
                             <div class="p-5">
                                 <div class="text-center">
                                     <h1 class="h4 text-gray-900 mb-4">{{ __('Login') }}</h1>
+
                                 </div>
 
                                 @if ($errors->any())
@@ -86,6 +87,10 @@
                                 @endif
                             </div>
                         </div>
+                        <div class="col-lg-6 d-lg-block" style="background-color: #051021">
+                            <h1></h1>
+                        </div>
+
                     </div>
                 </div>
             </div>

@@ -8,8 +8,7 @@
         <li class="breadcrumb-item active" aria-current="page">Forum</li>
     </ol>
     </nav>
-    
-    <!-- Main Content goes here -->
+
     <div class="container">
         <div class="row">
             <div class="col">
@@ -21,6 +20,7 @@
         </div>
     </div>
     <br>
+
     <div class="row justify-content-center">
         <div class="col-lg-12">
             <div class="card shadow h-100 py-2 text center">
@@ -120,7 +120,6 @@
     </ul>
     </nav>
 
-    
     <!-- End of Main Content -->
 @endsection
 

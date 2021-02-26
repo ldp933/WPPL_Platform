@@ -17,8 +17,10 @@
     <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
 
     <!-- Styles -->
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <link href="{{ asset('css/dropzone.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/sb-admin-2.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/main.css') }}" rel="stylesheet">
 
     <!-- Favicon -->
     <link href="{{ asset('img/favicon.png') }}" rel="icon" type="image/png">
@@ -44,16 +46,28 @@
         <hr class="sidebar-divider my-0">
 
         <!-- Nav Item - Dashboard -->
-        <li class="nav-item {{ Nav::isRoute('home') }}">
+        <li class="nav-item {{ Nav::isRoute('home') }}" style="margin-bottom: 2px">
             <a class="nav-link" href="{{ route('home') }}">
                 <i class="fas fa-fw fa-tachometer-alt"></i>
-                <span>{{ __('Dashboard') }}</span></a>
+                <span>{{ __('Dashboard') }}</span>
+            </a>
+            <div class="sub-menu">
+                <a class="nav-link" href="{{ route('deliverable') }}">
+                    <i class="fas fa-code"></i><span>Deliverable</span>
+                </a>
+               <a class="nav-link" href="{{ route('kanban') }}">
+                    <i class="fas fa-columns"></i><span>Kanban Card</span>
+                </a>
+                <a class="nav-link" href="#">
+                    <i class="fas fa-ban"></i><span>Failure Story</span>
+                </a>
+            </div>       
         </li>
 
         <!-- Nav Item -->
         <li class="nav-item {{ Nav::isRoute('businessmodel') }}">
             <a class="nav-link" href="{{ route('businessmodel') }}">
-                <i class="fas fa-boxes"></i>
+                <i class="far fa-file-alt"></i>
                 <span>{{ __('Business Model') }}</span>
             </a>
         </li>
@@ -61,7 +75,7 @@
         <!-- Nav Item -->
         <li class="nav-item {{ Nav::isRoute('assignment') }}">
             <a class="nav-link" href="{{ route('assignment') }}">
-                <i class="far fa-file-alt"></i>
+                <i class="fas fa-tasks"></i>
                 <span>{{ __('Assignment') }}</span>
             </a>
         </li>
@@ -69,7 +83,7 @@
         <!-- Nav Item -->
         <li class="nav-item {{ Nav::isRoute('materi') }}">
             <a class="nav-link" href="{{ route('materi') }}">
-                <i class="fas fa-fw fa-book"></i>
+                <i class="fas fa-book-reader"></i>
                 <span>{{ __('Materi') }}</span>
             </a>
         </li>
@@ -77,7 +91,7 @@
         <!-- Nav Item -->
         <li class="nav-item {{ Nav::isRoute('videomentoring') }}">
             <a class="nav-link" href="{{ route('videomentoring') }}">
-                <i class="far fa-file-video"></i>
+                <i class="fas fa-video"></i>
                 <span>{{ __('Video Mentoring') }}</span>
             </a>
         </li>
@@ -136,7 +150,7 @@
                     <div class="input-group">
                         <input type="text" class="form-control bg-light border-0 small" placeholder="Search for..." aria-label="Search" aria-describedby="basic-addon2">
                         <div class="input-group-append">
-                            <button class="btn btn-new-primary" type="button">
+                            <button class="btn btn-primary" type="button">
                                 <i class="fas fa-search fa-sm"></i>
                             </button>
                         </div>
@@ -276,8 +290,9 @@
                     <!-- Nav Item - User Information -->
                     <li class="nav-item dropdown no-arrow">
                         <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <span class="mr-2 d-none d-lg-inline text-gray-600 small">{{ Auth::user()->name }}</span>
-                            <figure class="img-profile rounded-circle avatar font-weight-bold" data-initial="{{ Auth::user()->name[0] }}"></figure>
+                            {{-- <span class="mr-2 d-none d-lg-inline text-gray-600 small">{{ Auth::user()->name }}</span> --}}
+                            {{-- <figure class="img-profile rounded-circle avatar font-weight-bold" data-initial="{{ Auth::user()->name[0] }}"></figure> --}}
+
                         </a>
                         <!-- Dropdown - User Information -->
                         <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown">
@@ -366,5 +381,7 @@
 <script src="{{ asset('js/sb-admin-2.min.js') }}"></script>
 <script src="{{ asset('js/dropzone.js') }}"></script>
 @stack('js')
+
+
 </body>
 </html>

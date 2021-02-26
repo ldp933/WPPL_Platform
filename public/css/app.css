@@ -1,3 +1,4 @@
+
 /*!
  * Font Awesome Free 5.15.2 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
@@ -17327,6 +17328,10 @@ body.sidebar-toggled footer.sticky-footer {
 }
 
 .bg-new-primary,
+=======
+.bg-new-primary,
+.btn-primary,
+
 .thead-color,
 .img-profile {
   background-color: #051121;
@@ -17403,5 +17408,15 @@ body.sidebar-toggled footer.sticky-footer {
 .fa-user {
   color: #2f4c7a;
   size: 100px;
+}
+
+
+.btn.col {
+  background-color: #2f4c7a;
+  background-size: cover;
+}
+
+.font-thead {
+  color: white;
 }
 

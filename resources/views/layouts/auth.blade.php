@@ -16,11 +16,13 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/sb-admin-2.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/main.css') }}" rel="stylesheet">
+
 
     <!-- Favicon -->
     <link href="{{ asset('img/favicon.png') }}" rel="icon" type="image/png">
 </head>
-<body class="bg-gradient-primary min-vh-100 d-flex justify-content-center align-items-center">
+<body style="background-image:url('img/login_bg.png') " class="bg-gradient-primary min-vh-100 d-flex justify-content-center align-items-center">
 
 @yield('main-content')
 

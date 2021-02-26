@@ -2,18 +2,7 @@
 
 @section('main-content')
     <!-- Page Heading -->
-
-    <nav aria-label="breadcrumb">
-    <ol class="breadcrumb">
-        <li class="breadcrumb-item"><a href="/home">Home</a></li>
-        <li class="breadcrumb-item active" aria-current="page">Assignment</li>
-    </ol>
-    </nav>
-    <h1 class="h3 mb-4 text-gray-800">{{ __('List Assignment') }}</h1>
-
-    <!-- Main Content goes here -->
-
-    <h1 class="h3 mb-4 text-gray-800">{{ __('Assignments') }}</h1>
+    <h1 class="h3 mb-4 text-gray-800">{{ __('Deliverable') }}</h1>
 
     <!-- Main Content goes here -->
     <div class="container-0 card-header">  
@@ -23,14 +12,13 @@
                     <img src="img/task_icon.png" alt="..." class="float-left mr-2" style="margin-left:20px">
                 </div>
                 <div class="item-1">
-                    <h5 class="card-title">Task 3</h5>
+                    <h5 class="card-title">Lean Canvas</h5>
                     <p class="card-text">30 days left</p>
-                    <a href="#" class="btn btn-danger">Unfinished</a>
+                    <a href="#" class="btn btn-blue">UI/UX</a>
                 </div>
             </div>
             <div class="container-2">
-                <a href="#" class="btn btn-primary">Upload</a>
-                <a href="#" class="btn btn-primary">View</a>
+                <a href="#" class="btn btn-primary">Upload File</a>
             </div>
         </div> 
         <div class="item card ">
@@ -39,82 +27,76 @@
                     <img src="img/task_icon.png" alt="..." class="float-left mr-2" style="margin-left:20px">
                 </div>
                 <div class="item-1">
-                    <h5 class="card-title">Task 3</h5>
+                    <h5 class="card-title">Lean Canvas</h5>
                     <p class="card-text">30 days left</p>
-                    <a href="#" class="btn btn-danger">Unfinished</a>
+                    <a href="#" class="btn btn-blue">UI/UX</a>
                 </div>
             </div>
             <div class="container-2">
-                <a href="#" class="btn btn-primary">Upload</a>
-                <a href="#" class="btn btn-primary">View</a>
+                <a href="#" class="btn btn-primary">Upload File</a>
             </div>
-        </div> 
+        </div>
         <div class="item card ">
             <div class="container-1">
                 <div class="item-1">
                     <img src="img/task_icon.png" alt="..." class="float-left mr-2" style="margin-left:20px">
                 </div>
                 <div class="item-1">
-                    <h5 class="card-title">Task 3</h5>
+                    <h5 class="card-title">Lean Canvas</h5>
                     <p class="card-text">30 days left</p>
-                    <a href="#" class="btn btn-danger">Unfinished</a>
+                    <a href="#" class="btn btn-blue">UI/UX</a>
                 </div>
             </div>
             <div class="container-2">
-                <a href="#" class="btn btn-primary">Upload</a>
-                <a href="#" class="btn btn-primary">View</a>
+                <a href="#" class="btn btn-primary">Upload File</a>
             </div>
-        </div> 
+        </div>
         <div class="item card ">
             <div class="container-1">
                 <div class="item-1">
                     <img src="img/task_icon.png" alt="..." class="float-left mr-2" style="margin-left:20px">
                 </div>
                 <div class="item-1">
-                    <h5 class="card-title">Task 3</h5>
+                    <h5 class="card-title">Lean Canvas</h5>
                     <p class="card-text">30 days left</p>
-                    <a href="#" class="btn btn-danger">Unfinished</a>
+                    <a href="#" class="btn btn-blue">UI/UX</a>
                 </div>
             </div>
             <div class="container-2">
-                <a href="#" class="btn btn-primary">Upload</a>
-                <a href="#" class="btn btn-primary">View</a>
+                <a href="#" class="btn btn-primary">Upload File</a>
             </div>
-        </div> 
+        </div>
         <div class="item card ">
             <div class="container-1">
                 <div class="item-1">
                     <img src="img/task_icon.png" alt="..." class="float-left mr-2" style="margin-left:20px">
                 </div>
                 <div class="item-1">
-                    <h5 class="card-title">Task 3</h5>
+                    <h5 class="card-title">Lean Canvas</h5>
                     <p class="card-text">30 days left</p>
-                    <a href="#" class="btn btn-danger">Unfinished</a>
+                    <a href="#" class="btn btn-blue">UI/UX</a>
                 </div>
             </div>
             <div class="container-2">
-                <a href="#" class="btn btn-primary">Upload</a>
-                <a href="#" class="btn btn-primary">View</a>
+                <a href="#" class="btn btn-primary">Upload File</a>
             </div>
-        </div> 
+        </div>
         <div class="item card ">
             <div class="container-1">
                 <div class="item-1">
                     <img src="img/task_icon.png" alt="..." class="float-left mr-2" style="margin-left:20px">
                 </div>
                 <div class="item-1">
-                    <h5 class="card-title">Task 3</h5>
+                    <h5 class="card-title">Lean Canvas</h5>
                     <p class="card-text">30 days left</p>
-                    <a href="#" class="btn btn-danger">Unfinished</a>
+                    <a href="#" class="btn btn-blue">UI/UX</a>
                 </div>
             </div>
             <div class="container-2">
-                <a href="#" class="btn btn-primary">Upload</a>
-                <a href="#" class="btn btn-primary">View</a>
+                <a href="#" class="btn btn-primary">Upload File</a>
             </div>
-        </div> 
+        </div>
     </div>
-
 
 
     <!-- End of Main Content -->

@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\DropzoneController;
 
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -23,9 +24,15 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/profile', 'ProfileController@index')->name('profile');
 Route::put('/profile', 'ProfileController@update')->name('profile.update');
 
+
+Route::get('/grocery', 'GroceryController@index')->name('grocery');
+Route::post('/grocery', 'GroceryController@index');
+
+
 Route::get('/about', function () {
     return view('about');
 })->name('about');
+
 
 Route::get('/addfailurestory', function () {
     return view('addfailurestory');
@@ -39,6 +46,7 @@ Route::get('/assignment', function () {
     return view('assignment');
 })->name('assignment');
 
+
 Route::get('/uploadassignment', function () {
     return view('uploadassignment');
 })->name('uploadassignment');
@@ -47,9 +55,22 @@ Route::get('/uploaddeliverable', function () {
     return view('uploaddeliverable');
 })->name('uploaddeliverable');
 
+Route::get('/deliverable', function () {
+    return view('deliverable');
+})->name('deliverable');
+
+Route::get('/kanban', function () {
+    return view('kanban');
+})->name('kanban');
+
+Route::get('/uploadAssignment', function () {
+    return view('uploadAssignment');
+})->name('uploadAssignment');
+
 Route::get('/materi', function () {
     return view('materi');
 })->name('materi');
+
 
 Route::get('/uploadmateri', function () {
     return view('uploadmateri');
@@ -58,6 +79,7 @@ Route::get('/uploadmateri', function () {
 Route::get('/videomentoring', function () {
     return view('videomentoring');
 })->name('videomentoring');
+
 
 Route::get('/uploadvideomentoring', function () {
     return view('uploadvideomentoring');
@@ -116,3 +138,8 @@ Route::get('/listmateri', function () {
 })->name('listmateri');
 
 Route::post('/dropzone', 'DropzoneController@dropzone')->name('dropzone');
+
+Route::get('/forum', function () {
+    return view('forum');
+})->name('forum');
+

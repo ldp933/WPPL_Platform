@@ -1,3 +1,4 @@
+
 @import '~@fortawesome/fontawesome-free/css/all.css';
 
 :root {
@@ -11424,6 +11425,13 @@
   }
 
   .bg-new-primary, .thead-color, .img-profile {
+
+.bg-new-primary {
+    background-color: #051121;
+    background-size: cover;
+
+.bg-new-primary, .btn-primary, .thead-color, .img-profile {
+
     background-color: #051121;
     background-size: cover;
 }
@@ -11495,3 +11503,11 @@
   color: #2f4c7a;
   size: 100px;
 }
+
+.btn.col {
+    background-color: #2f4c7a;
+    background-size: cover;
+}
+
+.font-thead {
+  color: white;}
