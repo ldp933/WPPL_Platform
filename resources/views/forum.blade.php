@@ -8,6 +8,8 @@
         <li class="breadcrumb-item active" aria-current="page">Forum</li>
     </ol>
     </nav>
+    
+    <!-- Main Content goes here -->
     <div class="container">
         <div class="row">
             <div class="col">
@@ -28,9 +30,22 @@
                         <div class="container">
                             <div class="row justify-content-center">
                                 <div class="col col-lg-12">
+                                    <form class="form-inline">
+                                        <label class="my-1 mr-2" for="inlineFormCustomSelectPref">Select category : </label>
+                                        <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
+                                            <option selected>Modul</option>
+                                            <option value="1">Android</option>
+                                            <option value="2">Backend</option>
+                                            <option value="3">Deployment</option>
+                                            <option value="4">Desktop</option>
+                                            <option value="5">Frontend</option>
+                                            <option value="6">Web</option>
+                                        </select>
+                                    </form>
                                     <table class="table">
                                         <thead class="thead-color font-thead">
                                             <tr>
+                                            <th scope="col">No</th>
                                             <th scope="col">Title</th>
                                             <th scope="col">Modul</th>
                                             <th scope="col">Question</th>
@@ -39,31 +54,36 @@
                                         </thead>
                                         <tbody>
                                         <tr>
-                                            <th scope="row">Choosing colors</th>
+                                            <th scope="row">1</th>
+                                            <td>Choosing colors</td>
                                             <td>UI/UX</td>
                                             <td>Confuse to choose whats color that suitable for our product</td>
                                             <td><button class="btn"><a href="/answerforum"><i class="fas fa-eye"></i></a></button></td>
                                         </tr>
                                         <tr>
-                                            <th scope="row">Pagination</th>
+                                            <th scope="row">2</th>
+                                            <td>Pagination</td>
                                             <td>Backend</td>
                                             <td>Dont know how to add pagination using query params</td>
                                             <td><button class="btn"><a href="/answerforum"><i class="fas fa-eye"></i></a></button></td>
                                         </tr>
                                         <tr>
-                                            <th scope="row">Server handling</th>
+                                            <th scope="row">3</th>
+                                            <td>Server handling</td>
                                             <td>Frontend</td>
                                             <td>Dont know how to fix index for server handling</td>
                                             <td><button class="btn"><a href="/answerforum"><i class="fas fa-eye"></i></a></button></td>
                                         </tr>
                                         <tr>
-                                            <th scope="row">Login validation</th>
+                                            <th scope="row">4</th>
+                                            <td>Login validation</td>
                                             <td>Android</td>
                                             <td>Dont know how to add login validation</td>
                                             <td><button class="btn"><a href="/answerforum"><i class="fas fa-eye"></i></a></button></td>
                                         </tr>
                                         <tr>
-                                            <th scope="row">Failed request</th>
+                                            <th scope="row">5</th>
+                                            <td>Failed request</td>
                                             <td>Deployment</td>
                                             <td>Cant fixing failed request on controller</td>
                                             <td><button class="btn"><a href="/answerforum"><i class="fas fa-eye"></i></a></button></td>
@@ -79,9 +99,28 @@
             </div>
         </div>
     </div>
-    <!-- Main Content goes here -->
+    <br>
+    <nav aria-label="Page navigation example">
+    <ul class="pagination justify-content-center">
+        <li class="page-item">
+        <a class="page-link" href="#" aria-label="Previous">
+            <span aria-hidden="true">&laquo;</span>
+            <span class="sr-only">Previous</span>
+        </a>
+        </li>
+        <li class="page-item"><a class="page-link" href="#">1</a></li>
+        <li class="page-item"><a class="page-link" href="#">2</a></li>
+        <li class="page-item"><a class="page-link" href="#">3</a></li>
+        <li class="page-item">
+        <a class="page-link" href="#" aria-label="Next">
+            <span aria-hidden="true">&raquo;</span>
+            <span class="sr-only">Next</span>
+        </a>
+        </li>
+    </ul>
+    </nav>
 
-
+    
     <!-- End of Main Content -->
 @endsection
 

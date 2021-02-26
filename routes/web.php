@@ -95,9 +95,9 @@ Route::get('/catalogueproduct', function () {
     return view('catalogueproduct');
 })->name('catalogueproduct');
 
-Route::get('/android', function () {
-    return view('android');
-})->name('android');
+Route::get('/listsprint', function () {
+    return view('listsprint');
+})->name('listsprint');
 
 Route::get('/desktop', function () {
     return view('desktop');
@@ -106,5 +106,13 @@ Route::get('/desktop', function () {
 Route::get('/web', function () {
     return view('web');
 })->name('web');
+
+Route::get('/listvideo', function () {
+    return view('listvideo');
+})->name('listvideo');
+
+Route::get('/listmateri', function () {
+    return view('listmateri');
+})->name('listmateri');
 
 Route::post('/dropzone', 'DropzoneController@dropzone')->name('dropzone');

@@ -1,3 +1,5 @@
+@import '~@fortawesome/fontawesome-free/css/all.css';
+
 :root {
     --blue: #4e73df;
     --indigo: #6610f2;
@@ -11489,7 +11491,7 @@
   right: 0;
 }
 
-.fa-mobile, .fa-desktop, .fa-code {
+.fa-mobile, .fa-desktop, .fa-code, .fa-user{
   color: #2f4c7a;
   size: 100px;
 }
