@@ -2,16 +2,33 @@
 
 @section('main-content')
     <!-- Page Heading -->
+<<<<<<< HEAD
     <h1 class="h3 mb-4 text-gray-800">{{ __('Ask Forum') }}</h1>
 
     <!-- Main Content goes here -->
+=======
+    <nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="/home">Home</a></li>
+        <li class="breadcrumb-item"><a href="/forum">Forum</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Ask Forum</li>
+    </ol>
+    </nav>
+    
+    <!-- Main Content goes here -->
+    <h1 class="h3 mb-4 text-gray-800">{{ __('Ask Forum') }}</h1>
+>>>>>>> master
     <div class="card shadow mb-4">
         <div class="card-body">
             <div class="row">
                 <div class="col-lg-8">
                     <div class="form-group focused">
                         <label class="form-control-label" for="problem">Title</label>
+<<<<<<< HEAD
                         <input type="text" id="title" class="form-control" name="title">
+=======
+                        <input class="form-control" type="text" placeholder="This is title">
+>>>>>>> master
                     </div>
                 </div>
             </div>
@@ -19,8 +36,13 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="form-group focused">
+<<<<<<< HEAD
                         <label class="form-control-label" for="question">Question</label>
                         <textarea id="question" class="form-control" name="question"></textarea>
+=======
+                        <label class="form-control-label" for="description">Question</label>
+                        <textarea id="description" class="form-control" placeholder="This is question"></textarea>
+>>>>>>> master
                     </div>
                 </div>
             </div>
@@ -28,15 +50,24 @@
             <div class="row">
                 <div class="col-lg-1">
                     <div class="form-group">
+<<<<<<< HEAD
                         <button type="submit" class="btn btn-new-primary">Post</button>
                     </div>
                 </div>
 
                 <div class="col-lg-1">
+=======
+                        <button type="submit" class="btn btn-col">Post</button>
+                    </div>
+                </div>
+
+                <div class="col-auto">
+>>>>>>> master
                     <div class="form-group">
                         <button type="submit" class="btn btn-new-cancel">Cancel</button>
                     </div>
                 </div>
+<<<<<<< HEAD
 
             </div>
 
@@ -44,6 +75,12 @@
     </div>
 
 
+=======
+            </div>
+        </div>
+    </div>
+
+>>>>>>> master
     <!-- End of Main Content -->
 @endsection
 

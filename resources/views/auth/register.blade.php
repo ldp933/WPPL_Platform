@@ -63,6 +63,11 @@
                                 </div>
                             </div>
                         </div>
+
+                        <div class="col-lg-6 d-lg-block" style="background-color: #051021">
+                            <h1></h1>
+                        </div>
+
                     </div>
                 </div>
             </div>

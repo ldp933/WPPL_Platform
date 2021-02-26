@@ -1,0 +1,103 @@
+.btn-primary {
+    color: #fff;
+    background-color:  #2f4c7a;
+    border-color: #2f4c7a;
+}
+
+.btn-blue {
+    color: #051121;
+    background-color:  #c0c1c1;
+    border-color: #c0c1c1;
+}
+
+.btn-primary:hover {
+    color:  #2f4c7a;
+    background-color: #fff;
+    border-color: #fff;
+}
+
+.li-align {
+    font-size: 1rem !important;
+    margin-right: .55rem !important;
+}
+
+.li-align-icon {
+  font-size: 1rem !important;
+  margin-left: 0.55rem !important;
+}
+
+#wrapper ul li .sub-menu{
+    background-color: #051121;
+    overflow: hidden;
+    transition: 0.3s;
+    // max-height: 0;
+    transition-property: background-color;
+}
+
+#wrapper ul li .sub-menu a{
+    display: block;
+    position: relative;
+    white-space: nowrap;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 2px;
+    padding-top: 27px;
+    font-size: 15px;    
+    margin-left: 25px;
+}
+
+#wrapper ul li .sub-menu a i{
+    color : inherit;
+}
+
+
+#wrapper ul li .sub-menu a:hover{
+    background: #f7fafc;
+    color: #051121;
+}
+
+#wrapper ul li .sub-menu i{
+    padding-right: 20px;
+    font-size: 10px;
+}
+
+#wrapper ul li:target .sub-menu i{
+    max-height: 500px;
+}
+
+#wrapper.collapse ul li .sub-menu i{
+    font-size: 18px;
+    padding-left: 3px;
+}
+
+// .card>.row{
+//     display: grid;
+//     grid-template-columns: repeat(2, minmax(200px, 1fr));
+//     grid-gap: 1rem;
+// }
+
+.container-0{
+    display: flex;
+    flex-flow: row wrap;
+    grid-gap: 20px;
+}
+
+.container-0 > .item{
+    padding: 20px;
+}
+
+.container-1{
+    display: flex;
+    flex-flow: row wrap;
+    grid-gap: 1px;
+}
+
+.container-1 > .item-1{
+    padding: 2px;
+}
+
+.container-2{
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

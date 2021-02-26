@@ -1,3 +1,9 @@
+<<<<<<< HEAD
+=======
+
+@import '~@fortawesome/fontawesome-free/css/all.css';
+
+>>>>>>> master
 :root {
     --blue: #4e73df;
     --indigo: #6610f2;
@@ -2336,34 +2342,59 @@
   
   .btn-primary {
     color: #fff;
+<<<<<<< HEAD
     background-color: #4e73df;
     border-color: #4e73df;
+=======
+    background-color: #2f4c7a;
+    border-color: #2f4c7a;
+>>>>>>> master
   }
   
   .btn-primary:hover {
     color: #fff;
+<<<<<<< HEAD
     background-color: #2e59d9;
     border-color: #2653d4;
+=======
+    background-color: #2f4c7a;
+    border-color: #2f4c7a;
+>>>>>>> master
   }
   
   .btn-primary:focus, .btn-primary.focus {
     color: #fff;
+<<<<<<< HEAD
     background-color: #2e59d9;
     border-color: #2653d4;
+=======
+    background-color: #2f4c7a;
+    border-color: #2f4c7a;
+>>>>>>> master
     box-shadow: 0 0 0 0.2rem rgba(105, 136, 228, 0.5);
   }
   
   .btn-primary.disabled, .btn-primary:disabled {
     color: #fff;
+<<<<<<< HEAD
     background-color: #4e73df;
     border-color: #4e73df;
+=======
+    background-color: #2f4c7a;
+    border-color: #2f4c7a;
+>>>>>>> master
   }
   
   .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
   .show > .btn-primary.dropdown-toggle {
     color: #fff;
+<<<<<<< HEAD
     background-color: #2653d4;
     border-color: #244ec9;
+=======
+    background-color: #2f4c7a;
+    border-color: #2f4c7a;
+>>>>>>> master
   }
   
   .btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus,
@@ -11262,7 +11293,11 @@
 }
 
 .avatar{
+<<<<<<< HEAD
     background:#4e73df;
+=======
+    background:#051121;
+>>>>>>> master
     border-radius:50%;
     color:#fff;
     display:inline-block;
@@ -11277,7 +11312,11 @@
 }
 
 .avatar-card{
+<<<<<<< HEAD
   background:#4e73df;
+=======
+  background:#051121;
+>>>>>>> master
     border-radius:50%;
     color:#fff;
     display:inline-block;
@@ -11388,8 +11427,13 @@
 
 .btn-new-primary{
     color: #fff;
+<<<<<<< HEAD
     background-color: #314b7e;
     border-color: #314b7e;
+=======
+    background-color: #051121;
+    border-color: #051121;
+>>>>>>> master
 }
 
 .btn-new-cancel{
@@ -11419,4 +11463,96 @@
 .dropzone {
     box-shadow: 0px 2px 20px 0px #f2f2f2;
     border-radius: 10px;
+<<<<<<< HEAD
   }
+=======
+  }
+
+  .bg-new-primary, .thead-color, .img-profile {
+
+.bg-new-primary {
+    background-color: #051121;
+    background-size: cover;
+
+.bg-new-primary, .btn-primary, .thead-color, .img-profile {
+
+    background-color: #051121;
+    background-size: cover;
+}
+
+.text-upload-video {
+    color: black;
+    opacity: 100%;
+}
+
+.text-attachment {
+    color: black;
+    opacity: 50%;
+}
+
+.btn-col {
+    background-color: #2f4c7a;
+    color: white;
+}
+
+.font-thead, .text-btn-col {
+    color: white;
+}
+
+.border-col {
+  color: #2f4c7a;
+}
+
+.button-hover {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #2f4c7a;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 14px;
+  padding: 8px;
+  width: 100px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button-hover span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button-hover span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button-hover:hover span {
+  padding-right: 25px;
+}
+
+.button-hover:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.fa-mobile, .fa-desktop, .fa-code, .fa-user{
+  color: #2f4c7a;
+  size: 100px;
+}
+
+.btn.col {
+    background-color: #2f4c7a;
+    background-size: cover;
+}
+
+.font-thead {
+  color: white;}
+>>>>>>> master
