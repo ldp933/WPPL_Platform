@@ -1,5 +1,26 @@
-.bg-new-primary {
+.bg-new-primary,
+.btn-primary,
+.thead-color,
+.img-profile {
   background-color: #051121;
   background-size: cover;
 }
 
+.text-upload-video {
+  color: black;
+  opacity: 100%;
+}
+
+.text-attachment {
+  color: black;
+  opacity: 50%;
+}
+
+.btn.col {
+  background-color: #2f4c7a;
+  background-size: cover;
+}
+
+.font-thead {
+  color: white;
+}

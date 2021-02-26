@@ -19471,29 +19471,15 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 // removed by extract-text-webpack-plugin
 
 /***/ }),
-
-/***/ "./resources/sass/main.scss":
-/*!**********************************!*\
-  !*** ./resources/sass/main.scss ***!
-  \**********************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-// removed by extract-text-webpack-plugin
-
-/***/ }),
-
 /***/ 0:
-/*!****************************************************************************************!*\
-  !*** multi ./resources/js/app.js ./resources/sass/app.scss ./resources/sass/main.scss ***!
-  \****************************************************************************************/
+/*!*************************************************************!*\
+  !*** multi ./resources/js/app.js ./resources/sass/app.scss ***!
+  \*************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! E:\KULIAH\KP\WPPL_Platform\resources\js\app.js */"./resources/js/app.js");
-__webpack_require__(/*! E:\KULIAH\KP\WPPL_Platform\resources\sass\app.scss */"./resources/sass/app.scss");
-module.exports = __webpack_require__(/*! E:\KULIAH\KP\WPPL_Platform\resources\sass\main.scss */"./resources/sass/main.scss");
-
+__webpack_require__(/*! D:\xampp\htdocs\Laravel\PlatformWPPL\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! D:\xampp\htdocs\Laravel\PlatformWPPL\resources\sass\app.scss */"./resources/sass/app.scss");
 
 /***/ })
 
