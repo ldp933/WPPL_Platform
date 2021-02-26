@@ -37,6 +37,18 @@ Route::get('/assignment', function () {
     return view('assignment');
 })->name('assignment');
 
+Route::get('/deliverable', function () {
+    return view('deliverable');
+})->name('deliverable');
+
+Route::get('/kanban', function () {
+    return view('kanban');
+})->name('kanban');
+
+Route::get('/uploadAssignment', function () {
+    return view('uploadAssignment');
+})->name('uploadAssignment');
+
 Route::get('/materi', function () {
     return view('materi');
 })->name('materi');
