@@ -38,6 +38,10 @@ Route::get('/deliverable', function () {
     return view('deliverable');
 })->name('deliverable');
 
+Route::get('/createDeliverable', function () {
+    return view('createDeliverable');
+})->name('Create Deliverable');
+
 Route::get('/kanban', function () {
     return view('kanban');
 })->name('kanban');

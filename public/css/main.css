@@ -4,6 +4,12 @@
   border-color: #2f4c7a;
 }
 
+.btn-primary2 {
+  color: #fff;
+  background-color: #051121;
+  border-color: #051121;
+}
+
 .btn-blue {
   color: #051121;
   background-color: #c0c1c1;
@@ -30,7 +36,13 @@
   background-color: #051121;
   overflow: hidden;
   transition: 0.3s;
+  margin-top: -24px;
   transition-property: background-color;
+}
+
+#wrapper ul li a {
+  margin-left: 10px;
+  margin-top: 0px;
 }
 
 #wrapper ul li .sub-menu a {
@@ -42,7 +54,8 @@
   padding-bottom: 2px;
   padding-top: 27px;
   font-size: 15px;
-  margin-left: 25px;
+  margin-left: 33px;
+  margin-top: -20px;
 }
 
 #wrapper ul li .sub-menu a i {
@@ -50,8 +63,7 @@
 }
 
 #wrapper ul li .sub-menu a:hover {
-  background: #f7fafc;
-  color: #051121;
+  color: #fff;
 }
 
 #wrapper ul li .sub-menu i {
@@ -72,10 +84,23 @@
   display: flex;
   flex-flow: row wrap;
   grid-gap: 20px;
+  background: transparent;
+  justify-content: center;
+}
+
+.container-0 .card .card-header {
+  display: flex;
+  color: #051121;
+  padding-bottom: 0px;
 }
 
 .container-0 > .item {
   padding: 20px;
+}
+
+.container-0 .item:hover .filledbar {
+  width: 120px;
+  transition: 0.4s ease-out;
 }
 
 .container-1 {
@@ -92,5 +117,21 @@
   margin-left: 20px;
   margin-top: 20px;
   margin-bottom: 20px;
+}
+
+.card-header p {
+  padding: 1px 7px 1px 7px;
+  background-color: white;
+  font-weight: bold;
+}
+
+.card-header span {
+  font-weight: bold;
+  color: white;
+}
+
+.item-0:hover {
+  top: -20px;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
 }
 
