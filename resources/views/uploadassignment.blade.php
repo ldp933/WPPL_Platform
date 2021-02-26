@@ -5,10 +5,11 @@
     <nav aria-label="breadcrumb">
     <ol class="breadcrumb">
         <li class="breadcrumb-item"><a href="/home">Home</a></li>
-        <li class="breadcrumb-item active" aria-current="page">Business Model</li>
+        <li class="breadcrumb-item"><a href="/assignment">Assignment</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Upload Assignment</li>
     </ol>
     </nav>
-    <h1 class="h3 mb-4 text-gray-800">{{ __('Business Model Documentation') }}</h1>
+    <h1 class="h3 mb-4 text-gray-800">{{ __('Upload Assignment') }}</h1>
 
     <!-- Main Content goes here -->
     <div class="card shadow mb-4">

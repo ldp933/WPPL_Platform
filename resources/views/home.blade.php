@@ -21,7 +21,8 @@
     @endif
 
     <div class="row">
-
+        <!-- Content Column -->
+        <div class="col-lg-12 mb-4">
         <!-- Earnings (Monthly) Card Example -->
         <div class="col-xl-3 col-md-6 mb-4">
             <div class="card border-left-primary shadow h-100 py-2">
@@ -108,6 +109,48 @@
             <!-- Project Card Example -->
             <div class="card shadow mb-4">
                 <div class="card-header py-3">
+
+                    <h6 class="m-0 font-weight-bold text-primary">My Projects</h6>
+                </div>
+                        <div class="card-body">
+                            <div class="table-responsive">
+                                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                                    <thead>
+                                        <tr>
+                                            <th>Project Name</th>
+                                            <th>Description</th>
+                                            <th>Owner</th>
+                                            <th>Action</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Hotelin</td>
+                                            <td>Platform untuk Booking Hotel</td>
+                                            <td>andhikadar@gmail.com</td>
+                                            <td>..</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Hotelin</td>
+                                            <td>Platform untuk Booking Hotel</td>
+                                            <td>andhikadar@gmail.com</td>
+                                            <td>..</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Hotelin</td>
+                                            <td>Platform untuk Booking Hotel</td>
+                                            <td>andhikadar@gmail.com</td>
+                                            <td>..</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+
+        <div class="col-lg-12 mb-4">
+
                     <h6 class="m-0 font-weight-bold text-primary">Projects</h6>
                 </div>
                 <div class="card-body">
@@ -189,6 +232,7 @@
         </div>
 
         <div class="col-lg-6 mb-4">
+
 
             <!-- Illustrations -->
             <div class="card shadow mb-4">

@@ -1,0 +1,1 @@
+<button class="button-hover font-weight-bold"  style="vertical-align:middle"><a href="/desktop"><span>Details</span></a></button>

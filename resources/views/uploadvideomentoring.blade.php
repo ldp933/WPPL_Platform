@@ -5,10 +5,11 @@
     <nav aria-label="breadcrumb">
     <ol class="breadcrumb">
         <li class="breadcrumb-item"><a href="/home">Home</a></li>
-        <li class="breadcrumb-item active" aria-current="page">Business Model</li>
+        <li class="breadcrumb-item"><a href="/videomentoring">Video Mentoring</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Upload Video Mentoring</li>
     </ol>
     </nav>
-    <h1 class="h3 mb-4 text-gray-800">{{ __('Business Model Documentation') }}</h1>
+    <h1 class="h3 mb-4 text-gray-800">{{ __('Upload Video Mentoring') }}</h1>
 
     <!-- Main Content goes here -->
     <div class="card shadow mb-4">
@@ -33,14 +34,9 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-1">
+                <div class="col-lg-12">
                     <div class="form-group">
                         <button type="submit" class="btn btn-col">Upload</button>
-                    </div>
-                </div>
-                <div class="col-auto">
-                    <div class="form-group">
-                        <button type="submit" class="btn btn-new-cancel">Cancel</button>
                     </div>
                 </div>
             </div>
