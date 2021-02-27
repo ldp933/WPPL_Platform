@@ -2,6 +2,9 @@
 
 @section('main-content')
     <!-- Page Heading -->
+<<<<<<< HEAD
+    <h1 class="h3 mb-4 text-gray-800">{{ __('List Assignment') }}</h1>
+=======
 
     <nav aria-label="breadcrumb">
     <ol class="breadcrumb">
@@ -14,6 +17,7 @@
     <!-- Main Content goes here -->
 
     <h1 class="h3 mb-4 text-gray-800">{{ __('Assignments') }}</h1>
+>>>>>>> master
 
     <!-- Main Content goes here -->
     <div class="container-0 card-header">  

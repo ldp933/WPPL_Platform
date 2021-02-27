@@ -2,7 +2,10 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\DropzoneController;
+<<<<<<< HEAD
+=======
 
+>>>>>>> master
 
 /*
 |--------------------------------------------------------------------------
@@ -33,7 +36,10 @@ Route::get('/about', function () {
     return view('about');
 })->name('about');
 
+<<<<<<< HEAD
+=======
 
+>>>>>>> master
 Route::get('/addfailurestory', function () {
     return view('addfailurestory');
 })->name('addfailurestory');
@@ -46,7 +52,10 @@ Route::get('/assignment', function () {
     return view('assignment');
 })->name('assignment');
 
+<<<<<<< HEAD
+=======
 
+>>>>>>> master
 Route::get('/uploadassignment', function () {
     return view('uploadassignment');
 })->name('uploadassignment');
@@ -55,6 +64,8 @@ Route::get('/uploaddeliverable', function () {
     return view('uploaddeliverable');
 })->name('uploaddeliverable');
 
+<<<<<<< HEAD
+=======
 Route::get('/deliverable', function () {
     return view('deliverable');
 })->name('deliverable');
@@ -71,11 +82,15 @@ Route::get('/uploadAssignment', function () {
     return view('uploadAssignment');
 })->name('uploadAssignment');
 
+>>>>>>> master
 Route::get('/materi', function () {
     return view('materi');
 })->name('materi');
 
+<<<<<<< HEAD
+=======
 
+>>>>>>> master
 Route::get('/uploadmateri', function () {
     return view('uploadmateri');
 })->name('uploadmateri');
@@ -84,7 +99,10 @@ Route::get('/videomentoring', function () {
     return view('videomentoring');
 })->name('videomentoring');
 
+<<<<<<< HEAD
+=======
 
+>>>>>>> master
 Route::get('/uploadvideomentoring', function () {
     return view('uploadvideomentoring');
 })->name('uploadvideomentoring');
@@ -97,6 +115,9 @@ Route::get('/askforum', function () {
     return view('askforum');
 })->name('askforum');
 
+<<<<<<< HEAD
+Route::post('/dropzone', 'DropzoneController@dropzone')->name('dropzone');
+=======
 Route::get('/answerforum', function () {
     return view('answerforum');
 })->name('answerforum');
@@ -147,3 +168,4 @@ Route::get('/forum', function () {
     return view('forum');
 })->name('forum');
 
+>>>>>>> master

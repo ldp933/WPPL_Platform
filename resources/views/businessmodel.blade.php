@@ -2,12 +2,15 @@
 
 @section('main-content')
     <!-- Page Heading -->
+<<<<<<< HEAD
+=======
     <nav aria-label="breadcrumb">
     <ol class="breadcrumb">
         <li class="breadcrumb-item"><a href="/home">Home</a></li>
         <li class="breadcrumb-item active" aria-current="page">Business Model</li>
     </ol>
     </nav>
+>>>>>>> master
     <h1 class="h3 mb-4 text-gray-800">{{ __('Business Model Documentation') }}</h1>
 
     <!-- Main Content goes here -->
@@ -33,6 +36,11 @@
                 </div>
             </div>
             <div class="row">
+<<<<<<< HEAD
+                <div class="col-lg-12">
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-new-primary">Upload</button>
+=======
                 <div class="col-lg-1">
                     <div class="form-group">
                         <button type="submit" class="btn btn-col">Upload</button>
@@ -41,6 +49,7 @@
                 <div class="col-auto">
                     <div class="form-group">
                         <button type="submit" class="btn btn-new-cancel">Cancel</button>
+>>>>>>> master
                     </div>
                 </div>
             </div>

@@ -29,7 +29,11 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="form-group">
+<<<<<<< HEAD
+                        <button type="submit" class="btn btn-new-primary">Upload</button>
+=======
                         <button type="submit" class="btn btn-col">Upload</button>
+>>>>>>> master
                     </div>
                 </div>
             </div>

@@ -21,6 +21,8 @@
     @endif
 
     <div class="row">
+<<<<<<< HEAD
+=======
         <!-- Content Column -->
         <div class="col-lg-12 mb-4">
         <!-- Earnings (Monthly) Card Example -->
@@ -102,13 +104,17 @@
     </div>
 
     <div class="row">
+>>>>>>> master
 
         <!-- Content Column -->
-        <div class="col-lg-6 mb-4">
+        <div class="col-lg-12 mb-4">
 
             <!-- Project Card Example -->
             <div class="card shadow mb-4">
                 <div class="card-header py-3">
+<<<<<<< HEAD
+                    <h6 class="m-0 font-weight-bold text-primary">My Projects</h6>
+=======
 
                     <h6 class="m-0 font-weight-bold text-primary">My Projects</h6>
                 </div>
@@ -210,28 +216,46 @@
                             <div class="text-white-50 small">#f6c23e</div>
                         </div>
                     </div>
+>>>>>>> master
                 </div>
-                <div class="col-lg-6 mb-4">
-                    <div class="card bg-danger text-white shadow">
                         <div class="card-body">
-                            Danger
-                            <div class="text-white-50 small">#e74a3b</div>
+                            <div class="table-responsive">
+                                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                                    <thead>
+                                        <tr>
+                                            <th>Project Name</th>
+                                            <th>Description</th>
+                                            <th>Owner</th>
+                                            <th>Action</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Hotelin</td>
+                                            <td>Platform untuk Booking Hotel</td>
+                                            <td>andhikadar@gmail.com</td>
+                                            <td>..</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Hotelin</td>
+                                            <td>Platform untuk Booking Hotel</td>
+                                            <td>andhikadar@gmail.com</td>
+                                            <td>..</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Hotelin</td>
+                                            <td>Platform untuk Booking Hotel</td>
+                                            <td>andhikadar@gmail.com</td>
+                                            <td>..</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-6 mb-4">
-                    <div class="card bg-secondary text-white shadow">
-                        <div class="card-body">
-                            Secondary
-                            <div class="text-white-50 small">#858796</div>
-                        </div>
-                    </div>
-                </div>
             </div>
 
-        </div>
-
-        <div class="col-lg-6 mb-4">
+        <div class="col-lg-12 mb-4">
 
 
             <!-- Illustrations -->

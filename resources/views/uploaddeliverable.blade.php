@@ -2,6 +2,8 @@
 
 @section('main-content')
     <!-- Page Heading -->
+<<<<<<< HEAD
+=======
     <nav aria-label="breadcrumb">
     <ol class="breadcrumb">
         <li class="breadcrumb-item"><a href="/home">Home</a></li>
@@ -9,6 +11,7 @@
         <li class="breadcrumb-item active" aria-current="page">Upload Deliverable</li>
     </ol>
     </nav>
+>>>>>>> master
     <h1 class="h3 mb-4 text-gray-800">{{ __('Upload Deliverable') }}</h1>
 
     <!-- Main Content goes here -->
@@ -36,7 +39,11 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="form-group">
+<<<<<<< HEAD
+                        <button type="submit" class="btn btn-new-primary">Upload</button>
+=======
                         <button type="submit" class="btn btn-col">Upload</button>
+>>>>>>> master
                     </div>
                 </div>
             </div>

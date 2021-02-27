@@ -2,6 +2,10 @@
 
 @section('main-content')
     <!-- Page Heading -->
+<<<<<<< HEAD
+    <h1 class="h3 mb-4 text-gray-800">{{ __('List Video Mentoring') }}</h1>
+
+=======
     <nav aria-label="breadcrumb">
     <ol class="breadcrumb">
         <li class="breadcrumb-item"><a href="/home">Home</a></li>
@@ -86,6 +90,7 @@
             </div>
         </div>
     </div>  
+>>>>>>> master
     <!-- Main Content goes here -->
 
 

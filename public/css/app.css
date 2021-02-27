@@ -1,3 +1,5 @@
+<<<<<<< HEAD
+=======
 
 /*!
  * Font Awesome Free 5.15.2 by @fontawesome - https://fontawesome.com
@@ -4607,6 +4609,7 @@ readers do not read off random characters that represent icons */
 .fas {
   font-family: 'Font Awesome 5 Free';
   font-weight: 900; }
+>>>>>>> master
 @charset "UTF-8";
 
 :root {
@@ -7270,37 +7273,62 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
+<<<<<<< HEAD
+  background-color: #4e73df;
+  border-color: #4e73df;
+=======
   background-color: #2f4c7a;
   border-color: #2f4c7a;
+>>>>>>> master
 }
 
 .btn-primary:hover {
   color: #fff;
+<<<<<<< HEAD
+  background-color: #2e59d9;
+  border-color: #2653d4;
+=======
   background-color: #2f4c7a;
   border-color: #2f4c7a;
+>>>>>>> master
 }
 
 .btn-primary:focus,
 .btn-primary.focus {
   color: #fff;
+<<<<<<< HEAD
+  background-color: #2e59d9;
+  border-color: #2653d4;
+=======
   background-color: #2f4c7a;
   border-color: #2f4c7a;
+>>>>>>> master
   box-shadow: 0 0 0 0.2rem rgba(105, 136, 228, 0.5);
 }
 
 .btn-primary.disabled,
 .btn-primary:disabled {
   color: #fff;
+<<<<<<< HEAD
+  background-color: #4e73df;
+  border-color: #4e73df;
+=======
   background-color: #2f4c7a;
   border-color: #2f4c7a;
+>>>>>>> master
 }
 
 .btn-primary:not(:disabled):not(.disabled):active,
 .btn-primary:not(:disabled):not(.disabled).active,
 .show > .btn-primary.dropdown-toggle {
   color: #fff;
+<<<<<<< HEAD
+  background-color: #2653d4;
+  border-color: #244ec9;
+=======
   background-color: #2f4c7a;
   border-color: #2f4c7a;
+>>>>>>> master
 }
 
 .btn-primary:not(:disabled):not(.disabled):active:focus,
@@ -17168,7 +17196,11 @@ body.sidebar-toggled footer.sticky-footer {
 }
 
 .avatar {
+<<<<<<< HEAD
+  background: #4e73df;
+=======
   background: #051121;
+>>>>>>> master
   border-radius: 50%;
   color: #fff;
   display: inline-block;
@@ -17183,7 +17215,11 @@ body.sidebar-toggled footer.sticky-footer {
 }
 
 .avatar-card {
+<<<<<<< HEAD
+  background: #4e73df;
+=======
   background: #051121;
+>>>>>>> master
   border-radius: 50%;
   color: #fff;
   display: inline-block;
@@ -17294,8 +17330,13 @@ body.sidebar-toggled footer.sticky-footer {
 
 .btn-new-primary {
   color: #fff;
+<<<<<<< HEAD
+  background-color: #314b7e;
+  border-color: #314b7e;
+=======
   background-color: #051121;
   border-color: #051121;
+>>>>>>> master
 }
 
 .btn-new-cancel {
@@ -17327,6 +17368,8 @@ body.sidebar-toggled footer.sticky-footer {
   border-radius: 10px;
 }
 
+<<<<<<< HEAD
+=======
 .bg-new-primary,
 =======
 .bg-new-primary,
@@ -17420,3 +17463,4 @@ body.sidebar-toggled footer.sticky-footer {
   color: white;
 }
 
+>>>>>>> master
